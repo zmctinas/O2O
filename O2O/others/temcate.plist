@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+		<string>全部</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>女装/内衣</string>
+		<string>男装/户外运动</string>
+		<string>鞋/箱包</string>
+		<string>美妆护肤</string>
+		<string>手机/数码</string>
+		<string>母婴用品</string>
+		<string>食品</string>
+		<string>小家电</string>
+		<string>珠宝/名表眼镜</string>
+		<string>家纺</string>
+		<string>家具用品</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>自助餐</string>
+		<string>小吃快餐</string>
+		<string>中餐</string>
+		<string>火锅</string>
+		<string>川菜</string>
+		<string>韩国料理</string>
+		<string>烤鱼</string>
+		<string>鲁菜</string>
+	</array>
+</array>
+</plist>

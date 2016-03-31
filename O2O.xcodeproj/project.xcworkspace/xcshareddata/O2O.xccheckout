@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19D1E611-87C5-4F84-9870-1B54B425979B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>O2O</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e7d64c81-98eb-44a8-9237-c92d4f55c278</key>
+		<string>http://code.taobao.org/svn/ShanXiO2OiOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>O2O/O2O.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e7d64c81-98eb-44a8-9237-c92d4f55c278</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e7d64c81-98eb-44a8-9237-c92d4f55c278</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e7d64c81-98eb-44a8-9237-c92d4f55c278</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%B1%B1%E8%A5%BFO2O</string>
+		</dict>
+	</array>
+</dict>
+</plist>

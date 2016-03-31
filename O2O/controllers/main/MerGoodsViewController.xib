@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MerGoodsViewController">
+            <connections>
+                <outlet property="dropMenu" destination="XlR-jI-o3M" id="Xmv-dm-abh"/>
+                <outlet property="tableView" destination="oD9-2J-9n4" id="rj5-kI-xx4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="regbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="jFg-vz-U7c">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="oD9-2J-9n4">
+                    <rect key="frame" x="0.0" y="110" width="320" height="414"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="separatorColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="GOd-Z3-BbV"/>
+                        <outlet property="delegate" destination="-1" id="Wfx-ko-K2k"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlR-jI-o3M">
+                    <rect key="frame" x="0.0" y="64" width="320" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="F5F-Lm-U7U"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ta-Nf-8qp">
+                    <rect key="frame" x="0.0" y="104" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oD9-2J-9n4" secondAttribute="trailing" id="H0e-q5-1xA"/>
+                <constraint firstItem="oD9-2J-9n4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Kzb-gu-pfY"/>
+                <constraint firstItem="XlR-jI-o3M" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="T77-p2-eHR"/>
+                <constraint firstAttribute="trailing" secondItem="XlR-jI-o3M" secondAttribute="trailing" id="aCb-Ss-hW8"/>
+                <constraint firstAttribute="bottom" secondItem="oD9-2J-9n4" secondAttribute="bottom" constant="44" id="ooz-Zc-ttW"/>
+                <constraint firstItem="XlR-jI-o3M" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="pLb-CW-Ebh"/>
+                <constraint firstItem="oD9-2J-9n4" firstAttribute="top" secondItem="XlR-jI-o3M" secondAttribute="bottom" constant="6" id="rgd-1L-M5m"/>
+            </constraints>
+            <point key="canvasLocation" x="-22" y="24"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="regbg.png" width="720" height="1247"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
